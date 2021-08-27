@@ -5,8 +5,7 @@ var nome = ["Gianni", "Maddalena", "Elisa", "Giovanni", "Maria"];
 var cognome = ["Bianchini", "Modonesi", "Scaroni", "Milanese", "Giannotti"];
 var listaInvitati =[];
 for (var i=0; i<3; i++) {
-    var invitato = nome[Math.floor(Math.random() * 5)] + " " +cognome[Math.floor(Math.random() * 5)];
-    listaInvitati.push(invitato);
+    listaInvitati.push(nome[Math.floor(Math.random() * 5)] + " " + cognome[Math.floor(Math.random() * 5)]);
 }
 
 console.log(listaInvitati);
