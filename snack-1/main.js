@@ -7,13 +7,13 @@ var somma = 0;
 for (var i=0; i<5; i++) {
     var num = parseInt(prompt("Inserisci un numero"));
     while (isNaN(num)) {
-       var numero = parseInt(prompt("errore! inserisci un numero"));
+        num = parseInt(prompt("Errore! inserisci un numero"));
     }
     somma += num;
 }
 console.log(somma);
 
-// // versione while
+// versione while
 var somma = 0;
 var i=0;
 while (i<5) {
