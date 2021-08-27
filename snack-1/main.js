@@ -20,7 +20,7 @@ while (i<5) {
     do {
         var num = parseInt(prompt("Inserisci un numero"));
         if(isNaN(num)) {
-            alert("Errore inserisci un numero!");
+            alert("Errore! Inserisci un numero!");
         }
     } while (isNaN(num));
     somma += num;
